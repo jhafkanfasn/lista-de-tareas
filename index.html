@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas Personales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Lista de Tareas Personales</h1>
+    </header>
+
+    <main class="container my-5">
+        <div class="input-group mb-3">
+            <input type="text" id="nueva-tarea" class="form-control" placeholder="Agregar nueva tarea">
+            <div class="input-group-append">
+                <button id="agregar-btn" class="btn btn-primary">Agregar</button>
+            </div>
+        </div>
+
+        <ul id="lista-tareas" class="list-group"></ul>
+    </main>
+
+    <footer class="bg-light text-center py-4">
+        <button id="info-btn" class="btn btn-info">Info</button>
+        <div id="info" class="d-none mt-3">
+            <p>Carrera: Desarrollo Web</p>
+            <p>Materia: Programación Web</p>
+            <p>Turno: Mañana</p>
+            <p>Comisión: C</p>
+            <p>Año: 2024</p>
+            <p>Alumnos:</p>
+            <ul>
+                <li>Geronimo Fernandez Garimaldi</li>
+                <li>Lucas Graña</li>
+                <li>Valen Zuñiga</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

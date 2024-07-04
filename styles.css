@@ -1,0 +1,12 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#info {
+    display: none;
+}
+
+#info.d-block {
+    display: block;
+}
